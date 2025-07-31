@@ -1,0 +1,1 @@
+# iac-azure-vm-storage-stack
