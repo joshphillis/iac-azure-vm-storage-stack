@@ -20,7 +20,7 @@ This repository provisions a secure and reusable infrastructure on Azure using B
 
 ---
 
-### 🛠 Parameters Defined in `main.bicep`
+### 🛠 Parameters Defined in `parameters.json`
 
 | Parameter           | Description                                  | Example                        |
 |---------------------|----------------------------------------------|--------------------------------|
@@ -35,6 +35,7 @@ This repository provisions a secure and reusable infrastructure on Azure using B
 | `nicName`           | Name of the Network Interface                | `"VM1-nic"`                    |
 
 > 💡 _Use Key Vault or pipeline secrets for `adminPassword` in production._
+> 🔐 Secure values like adminPassword should be injected using Key Vault or pipeline secrets in production environments.
 
 ---
 
